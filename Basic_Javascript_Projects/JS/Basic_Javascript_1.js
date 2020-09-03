@@ -12,3 +12,10 @@ window.alert(message); //pop up window displaying alert message
 document.write(dog + " " + cat + " " + penguin); //concatenating the variables
 
 var answer = 6 + 6; //writing an expression
+
+function testFunction() {
+    let text = "yup, you clicked me."
+    alert(text);
+    document.write("read this again: " + text);
+    return text;
+}
