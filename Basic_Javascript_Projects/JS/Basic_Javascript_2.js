@@ -9,3 +9,9 @@ function testFunction2() { //defining function to concatenate strings
     sentence += " in the woods of Pennsylvania!"; //adding second half of sentence onto variable
     document.getElementById("Concatenate").innerHTML = sentence; //targeting element by ID in html
 };
+
+function randomNum() {
+    var num = Math.floor(Math.random() * 10);
+
+    document.getElementById("Random_Number").innerHTML = num;
+};
