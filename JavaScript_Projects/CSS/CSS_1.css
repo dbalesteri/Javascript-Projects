@@ -1,0 +1,22 @@
+#form-container {
+    border-style: inset;
+    border-width: 8px;
+    background-color: tan;
+    width: 30%;
+    margin: auto;
+    
+}
+
+#charname {
+    width: 200px;
+    margin: 10px 0 10px 0;
+}
+
+#charclass {
+    width: 200px;
+    margin: 10px 0 10px 0;
+}
+
+.submit {
+    margin: 10px 0 10px 0;
+}

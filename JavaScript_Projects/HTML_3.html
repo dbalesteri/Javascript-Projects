@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <script src="JavaScript/JavaScript_3.js" defer></script>
+        <link rel="stylesheet" href="CSS/CSS_3.css">
+        <title>Javascript 3 Project</title>
+    </head>
+
+    <body>
+        <h1>Video Game Recommender</h1>
+        <h3>Click on your favorite video game genre to see a title you might like!</h3>
+
+        <ul>
+            <li onclick="displayType(this)" id="Sword_and_Sorcery" data-game-type="Oblivion">Sword and Sorcery</li>
+            <li onclick="displayType(this)" id="FPS_Adventure" data-game-type="Metroid Prime">FPS Adventure</li>
+            <li onclick="displayType(this)" id="Puzzle" data-game-type="Superliminal">Puzzle</li>
+            <li onclick="displayType(this)" id="Management" data-game-type="Graveyard Keeper">Management</li>
+            <li onclick="displayType(this)" id="Story_Teling" data-game-type="Stanley Parable">Story Telling</li>
+            <li onclick="displayType(this)" id="2D_RPG" data-game-type="Earthbound">2D RPG</li>
+            <li onclick="displayType(this)" id="Racing" data-game-type="Diddy Kong Racing">Racing</li>
+            <li onclick="displayType(this)" id="Strategy" data-game-type="Fire Emblem: Path of Radiance">Strategy</li>
+            <li onclick="displayType(this)" id="3D_Platformer" data-game-type="Banjo Kazooie">3D Platformer</li>
+            <li onclick="displayType(this)" id="Skilled_RPG" data-game-type="Dark Souls">Skilled RPG</li>
+        </ul>
+
+        <p id="displayGame"></p>
+        <a id="gameTrailer" href="" target="_blank"></a>
+        
+    </body>
+
+</html>

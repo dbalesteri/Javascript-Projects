@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <script src="JavaScript/JavaScript_1.js" defer></script>
+        <title>Javascript 1 Project</title>
+    </head>
+
+    <body>
+        <div id="background" style="background-color: white">
+            <h1>Click your favorite color below!</h1>
+
+            <h3>Please pick from this list:</h3>
+            <ul>
+                <li>Red</li>
+                <li>Green</li>
+                <li>Blue</li>
+                <li>Yellow</li>
+                <li>Orange</li>
+                <li>Purple</li>
+            </ul>
+            <input id="color_input" type="text" placeholder="Type your answer here, then hit submit!" style="width: 300px;">
+            <button onclick="color_function()">Submit</button>
+            <br>
+            <p>Answers are not case-sensitive!</p>
+            <p id="wrong"></p>
+        </div>  
+
+        <p class="changethis" style="color: black;">Here is some text to change!</p>
+        <p class="changethis" style="color: black;">This text will also change!</p>
+        <button onclick="classChangeFunction()">Try it out!</button>
+
+        <br><br>
+
+        <button onclick="drawRadialOnCanvas()">Click for radial gradient on canvas!</button>
+        <br><br>
+        <button onclick="drawRadialOnCanvas()">Click for linear gradient on canvas!</button>
+        <br>
+        <canvas id="canvas_1" width="500px" height="250px" style="border: 10px solid black;"></canvas>
+        
+    </body>
+
+</html>
