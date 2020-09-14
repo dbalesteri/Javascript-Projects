@@ -1,0 +1,127 @@
+#menuBG {
+    width: 57%;
+    height: 470px;
+    margin: 50px auto;
+}
+
+#frmMenu {
+    width: 70%;
+    height: 200px;
+    margin: auto;
+}
+
+.left {
+    width: 160px;
+    height: 200px;
+    margin: 10px auto 10px auto;
+    padding: 10px 0px 10px 0px;
+    position: relative;
+    display: block;
+}
+
+.right {
+    width: 50%;
+    height: 200px;
+    margin: auto;
+    align-content: center;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+#showText {
+    width: 80%;
+    height: 300px;
+    position: relative;
+    margin: auto;
+    align-content: center;
+}
+
+#totalPrice {
+    width: 80%;
+    height: 100px;
+    position: relative;
+    margin: auto;
+    align-content: center;
+}
+
+#cart {
+    top: 0;
+    margin: 0px auto;
+    width: 40%;
+    height: 200px
+}
+
+#buttonContainer {
+    width: 15%;
+    height: 40px;
+    margin: 0px auto;
+    align-content: center;
+    padding: 10px 0px 10px 0px;
+}
+
+#btnOrder {
+    margin: 10px auto 0px auto;
+    width: 100%;
+    height: 40px;
+    font-family: 'Righteous', cursive;
+}
+
+#btnOrder:hover {
+    margin: 10px auto 0px auto;
+    width: 100%;
+    height: 40px;
+    font-family: 'Righteous', cursive;
+    background-image: url('../images/pizza.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: rgb(95, 253, 108);
+    text-shadow: 1px 1px rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+
+.size:hover {
+    cursor: pointer;
+}
+
+.toppings:hover {
+    cursor: pointer;
+}
+
+h1 {
+    font-family: 'Righteous', cursive;
+    color: rgb(253, 95, 95);
+    text-shadow: 2px 2px rgb(255, 255, 255);
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Righteous', cursive;
+    color: rgb(253, 95, 95);
+    text-shadow: 2px 2px rgb(255, 255, 255);
+}
+
+#earth {
+    color: rgb(95, 253, 108);
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: black;
+}
+
+div {
+    font-family: 'Righteous', cursive;
+}
+
+body {
+    background-color: rgb(168, 245, 255);
+}
