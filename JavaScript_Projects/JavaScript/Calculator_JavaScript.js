@@ -36,7 +36,7 @@ function Input_Decimal(dot) {
 
 //this section handles operators
 function Handle_Operator(Next_Operator) {
-    const { First_Operand, Display_Value, operator } = Calculator
+    const { First_Operand, Display_Value, operator } = Calculator;
     //when an operator key is pressed, convert the current number displayed on the screen to
     //a number and then store the result in Calculator.First_Operand if it doesn't already exist
     const Value_of_Input = parseFloat(Display_Value);
@@ -51,7 +51,7 @@ function Handle_Operator(Next_Operator) {
     } else if (operator) { //checks if operator already exists
         const Value_Now = First_Operand || 0;
         //if operator exists, property lookup is performed for the operator in the Perform_Calculation object and
-        //the functiont hat matches the operator is executed
+        //the function that matches the operator is executed
         let result = Perform_Calculation[operator] (Value_Now, Value_of_Input);
         //here we add a fixed amount of numbers after the decimal
         result = Number(result).toFixed(9);
