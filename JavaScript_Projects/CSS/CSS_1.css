@@ -4,7 +4,6 @@
     background-color: tan;
     width: 30%;
     margin: auto;
-    
 }
 
 #charname {
@@ -20,3 +19,70 @@
 .submit {
     margin: 10px 0 10px 0;
 }
+
+.open-button {
+    background-color: tan;
+    color:black;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 300px;
+}
+
+.form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+    border: 3px solid #ffb663;
+    z-index: 9;
+    margin-bottom: 15px;
+}
+
+
+.form-container2 {
+    max-width: 300px;
+    padding: 10px;
+    background-color:tan;
+    color: white;
+    text-shadow: 1px 1px 4px rgb(0,0,0);
+}
+
+.form-container2 input[type=text], .form-container2 input[type=password] {
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: 2px solid #ffc480;
+    background: #ffffff;
+}
+
+.form-container2 input[type=text]:focus, .form-container2 input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+.form-container2 .btn {
+    background-color: #89ff8d;
+    color: rgb(0, 0, 0);
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+}
+
+.form-container2 .cancel {
+    background-color: rgb(255, 137, 137);
+}
+
+.form-container2 .btn:hover, .open-button:hover {
+    opacity: 1;
+}
+
+
+

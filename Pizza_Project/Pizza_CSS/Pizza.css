@@ -104,6 +104,7 @@ h1 {
     color: rgb(253, 95, 95);
     text-shadow: 2px 2px rgb(255, 255, 255);
     text-align: center;
+    font-size: 2.5vw;
 }
 
 h3 {
@@ -122,6 +123,20 @@ div {
     font-family: 'Righteous', cursive;
 }
 
-body {
+html {
     background-color: rgb(168, 245, 255);
+}
+
+body { 
+    animation: fadeInAnimation ease 3s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+} 
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+    } 
 }

@@ -7,3 +7,11 @@ function validateForm() { //validating that user has entered in a value for both
         return false;
     }
 }
+
+function openForm() {
+    document.getElementById("myForm").style.display = "block";
+};
+
+function closeForm() {
+    document.getElementById("myForm").style.display = "none";
+};
